@@ -4,7 +4,7 @@
 */
 
 function sumOfSecondPowers(array) {
-    return array.reduce((acc, x) => acc + x * x, 0)
+    return array.reduce((acc, x) => acc + x * x, 0);
 }
 
 const numbers = [1, 2, 3, 4, 5];
