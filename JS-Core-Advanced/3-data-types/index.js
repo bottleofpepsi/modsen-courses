@@ -10,8 +10,8 @@ function sumOfFirstAndLastDigits(number) {
     const firstDigit = (number + '').at(0);
     const lastDigit = (number + '').at(-1);
 
-    return +firstDigit + +lastDigit;
+    console.log(+firstDigit + +lastDigit);
 }
 
 const number = 59876333333333333333333333333333333339n;
-console.log(sumOfFirstAndLastDigits(number));
+sumOfFirstAndLastDigits(number);
